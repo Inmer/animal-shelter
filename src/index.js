@@ -8,6 +8,7 @@ import Animals from "./pages/Animals";
 import Home from "./pages/Home";
 import reportWebVitals from "./reportWebVitals";
 import Footer from "./components/Footer";
+import Vets from "./pages/Vets";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,12 +22,14 @@ ReactDOM.render(
               <Nav className="me-auto"></Nav>
               <Nav>
                 <Nav.Link href="/animals">Animals</Nav.Link>
+                <Nav.Link href="/vets">Vets</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
         <Route path="/" exact component={Home} />
         <Route path="/animals" exact component={Animals} />
+        <Route path="/vets" exact component={Vets} />
         <Footer />
       </main>
     </Router>

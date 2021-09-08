@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <div className="bg-success d-flex" style={{ height: "300px" }}>
-        <Container className="d-flex align-items-center justify-content-center">
+        <Container className="d-flex text-center align-items-center justify-content-center">
           <span
             style={{ color: "white", fontSize: "50px", fontWeight: "bold" }}
           >
@@ -23,7 +23,10 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore
               cupiditate quia at animi deserunt, perspiciatis, officia, atque
               enim quo modi ipsa nulla. Asperiores aliquid atque impedit
-              corrupti ipsam iusto?
+              corrupti ipsam iusto Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Vitae illum fugit, recusandae tempore eligendi
+              quia quos excepturi quidem debitis placeat suscipit numquam,
+              deserunt esse ipsam nam vel odit veritatis commodi?
             </p>
           </Col>
           <Col lg={8}>
