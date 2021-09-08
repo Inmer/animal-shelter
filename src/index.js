@@ -7,6 +7,7 @@ import "./index.css";
 import Animals from "./pages/Animals";
 import Home from "./pages/Home";
 import reportWebVitals from "./reportWebVitals";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +27,7 @@ ReactDOM.render(
         </Navbar>
         <Route path="/" exact component={Home} />
         <Route path="/animals" exact component={Animals} />
+        <Footer />
       </main>
     </Router>
   </React.StrictMode>,
