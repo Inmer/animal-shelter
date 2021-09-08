@@ -1,14 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./index.css";
 import Animals from "./pages/Animals";
 import Home from "./pages/Home";
 import reportWebVitals from "./reportWebVitals";
-import { Navbar, NavDropdown } from "react-bootstrap";
-import { Container } from "react-bootstrap";
-import { Nav } from "react-bootstrap";
 
 ReactDOM.render(
   <React.StrictMode>
