@@ -9,4 +9,4 @@
 
 ---
 
-**NOTES:** Admin functionality is missing (add, delete animals and login), also vet information page.
+**NOTES:** Admin functionality is missing (add, delete animals and login).
